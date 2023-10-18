@@ -24,7 +24,7 @@ class NautobotSSOTAristaCVConfig(PluginConfig):
     base_url = "nautobot-sot_aristacv"
     required_settings = []
     min_version = "1.4.0"
-    max_version = "latest"
+    max_version = "2.9999"
     default_settings = {
         "cvp_host": os.getenv("NAUTOBOT_ARISTACV_HOST"),
         "cvp_user": os.getenv("NAUTOBOT_ARISTACV_USERNAME"),
